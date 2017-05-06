@@ -19,7 +19,7 @@ Until a stable release, the snapshot version is available in the Sonatype OSS Sn
 
 # Dependencies
 
-Primeval Reflex requires Java 8 and depends on [Dropwizard Metrics](https://github.com/dropwizard/metrics).
+primeval-metrics-aspecio requires Java 8 and depends on [Primeval Metrics](https://github.com/primeval-io/primeval-metrics).
 
 ```xml
 	<dependency>
