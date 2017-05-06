@@ -41,7 +41,7 @@ Counters under these names represent the time before a method returns (normally 
 
 If a method returns an OSGi `Promise` (as used in [Primeval Codex](https://github.com/primeval-io/primeval-codex)), then another timer is used and has the form `<methodId>::promise`. It represents the time until a `Promise` is resolved (successfully or not). A method returning a Promise should ideally be non-blocking and have negligible execution time, while the promise resolution time should display actual performance.
 
-Also note that a service property named `measured` will be set to `Boolean.TRUE` to your service if it is properly woven with that aspect. 
+Also note that a service property named `primeval.metrics.measured` will be set to `Boolean.TRUE` to your service if it is properly woven with that aspect. 
 
 # Adding MetricsAspect to your service
 
