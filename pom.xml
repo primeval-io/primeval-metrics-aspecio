@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>io.primeval</groupId>
 		<artifactId>primeval-parent</artifactId>
-		<version>2-SNAPSHOT</version>
+		<version>3-SNAPSHOT</version>
 		<relativePath />
 	</parent>
 
@@ -21,7 +21,7 @@
 
 
 	<properties>
-		<primeval-3rdparty-bom.version>1.0.0-SNAPSHOT</primeval-3rdparty-bom.version>
+		<primeval-3rdparty-bom.version>1.1.0-SNAPSHOT</primeval-3rdparty-bom.version>
 		<primeval-metrics.version>1.0.0-SNAPSHOT</primeval-metrics.version>
 		<aspecio.version>2.0.0-SNAPSHOT</aspecio.version>
 	</properties>
@@ -40,6 +40,11 @@
 			<version>${aspecio.version}</version>
 		</dependency>
 
+
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.util.promise</artifactId>
+		</dependency>
 
 		<!-- TEST -->
 		<dependency>
